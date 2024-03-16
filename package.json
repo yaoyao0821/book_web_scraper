@@ -1,0 +1,19 @@
+{
+  "name": "make_book",
+  "version": "1.0.0",
+  "description": "A web scraper for personal use, designed for online books.",
+  "main": "make_book.js",
+  "scripts": {
+    "start": "node make_book.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "yaoyao",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security"
+  }
+}
